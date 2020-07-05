@@ -1,0 +1,15 @@
+{
+  "name": "jest-pouch-coverage-bug",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collectCoverage"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "pouchdb": "^7.2.1"
+  },
+  "dependencies": {
+    "pouchdb-adapter-memory": "^7.2.1"
+  }
+}
